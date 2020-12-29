@@ -1,0 +1,928 @@
+{
+    "root": {
+        "data": {
+            "id": "c5v70l6jz9k0",
+            "created": 1600909390842,
+            "text": "MyBigData"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c5v717nvumw0",
+                    "created": 1600909439779,
+                    "text": "设计思想",
+                    "layout_mind_offset": {
+                        "x": -550,
+                        "y": -53
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c5v71jjmhy00",
+                            "created": 1600909465643,
+                            "text": "灵活"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c5v71phdqdc0",
+                            "created": 1600909478568,
+                            "text": "高度自由"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c5v71sk6xi80",
+                            "created": 1600909485268,
+                            "text": "模板式批量式插入数据"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c5v7qe95teo0",
+                            "created": 1600911413230,
+                            "text": "万物万事标签化"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c5v73e9hl9k0",
+                    "created": 1600909610874,
+                    "text": "设计要求",
+                    "layout_mind_offset": {
+                        "x": 176.99999701976787,
+                        "y": -579.3333192931285
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c5v746y8hhc0",
+                            "created": 1600909673321,
+                            "text": "数据存储"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5v75s5ypqw0",
+                                    "created": 1600909797864,
+                                    "text": "键值对",
+                                    "layout_left_offset": {
+                                        "x": -22,
+                                        "y": 6
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5v75yi6ppc0",
+                                    "created": 1600909811664,
+                                    "text": "模板表",
+                                    "layout_left_offset": {
+                                        "x": -14,
+                                        "y": -98
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5v767esjnc0",
+                                    "created": 1600909831050,
+                                    "text": "冗余备份，谨防掉电造成数据库损坏丢失全部数据"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5v7q1viepc0",
+                                    "created": 1600911386284,
+                                    "text": "标签化"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c5v78ahqk2g0",
+                            "created": 1600909994487,
+                            "text": "UI"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5v7bb0bklc0",
+                                    "created": 1600910230703,
+                                    "text": "PHP实现WebUI"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5v7bimthpc0",
+                                    "created": 1600910247301,
+                                    "text": "Java实现跨平台APP级GUI"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5v7bvanqkg0",
+                                    "created": 1600910274864,
+                                    "text": "Android专用APP GUI"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c5v78gcbk3s0",
+                            "created": 1600910007220,
+                            "text": "API"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5v7arga5ag0",
+                                    "created": 1600910188132,
+                                    "text": "JSON形式返回数据"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5v7c9k08wo0",
+                                    "created": 1600910305904,
+                                    "text": "只从POST请求里接收客户端操作数据库数据，且只接受JSON格式数据"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c5v78u0zx9k0",
+                            "created": 1600910037010,
+                            "text": "计算"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5v79yl5ng00",
+                                    "created": 1600910125300,
+                                    "text": "全局存储数据关联联想",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5v7pcbtibs0",
+                                            "created": 1600911330673,
+                                            "text": "词义关联"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5v7pu9rxbc0",
+                                                    "created": 1600911369732,
+                                                    "text": "标签化"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c5v7aanup280",
+                                    "created": 1600910151585,
+                                    "text": "局部存储数据关联联想"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5v7aj9prq00",
+                                    "created": 1600910170322,
+                                    "text": "基础统计分析"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c5v758fmy540",
+                    "created": 1600909754914,
+                    "text": "想法",
+                    "layout_mind_offset": {
+                        "x": -50.83335038688324,
+                        "y": 276.6666244798271
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c5v7rm7297c0",
+                            "created": 1600911508882,
+                            "text": "物理世界",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5v7s6v5ou80",
+                                    "created": 1600911553874,
+                                    "text": "记录",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5v7djiwi9s0",
+                                            "created": 1600910405969,
+                                            "text": "牙膏"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5v7szm3h280",
+                                                    "created": 1600911616453,
+                                                    "text": "固有属性记录"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c5v7vwj7p740",
+                                    "created": 1600911844841,
+                                    "text": "时间"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5v7xc7fwu80",
+                                            "created": 1600911957322,
+                                            "text": "历史上的今天"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c5v7x15diwg0",
+                                    "created": 1600911933252,
+                                    "text": "周期性事物",
+                                    "expandState": "expand",
+                                    "layout_right_offset": {
+                                        "x": 27.49999890724831,
+                                        "y": 17.499999304612516
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5v7w68uoc00",
+                                            "created": 1600911865982,
+                                            "text": "签到"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5v7wqcmj4o0",
+                                                    "created": 1600911909746,
+                                                    "text": "APP/网站签到",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c5v7wwi3us80",
+                                                            "created": 1600911923138,
+                                                            "text": "支付宝"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5v7xhoikc80",
+                                                            "created": 1600911969238,
+                                                            "text": "QQ音乐"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5v7xlm1i540",
+                                                            "created": 1600911977796,
+                                                            "text": "京东"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5v7xpi6e3k0",
+                                                            "created": 1600911986269,
+                                                            "text": "淘宝"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5v7vz4ecxs0",
+                                            "created": 1600911850476,
+                                            "text": "今天做什么"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c5v7rs4sm0w0",
+                            "created": 1600911521805,
+                            "text": "虚拟世界"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5v7s2jnzxc0",
+                                    "created": 1600911544472,
+                                    "text": "数据存储",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5v7skkkfi80",
+                                            "created": 1600911583709,
+                                            "text": "收藏夹分类归纳"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5v7sq0brvc0",
+                                            "created": 1600911595546,
+                                            "text": "资源文件分类归纳"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c5v7tbi69i00",
+                                    "created": 1600911642337,
+                                    "text": "网银记账"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5v7tgh8esg0",
+                                    "created": 1600911653164,
+                                    "text": "运动APP数据记录/备份"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c5v7tmpn9u80",
+                                    "created": 1600911666734,
+                                    "text": "手机运行状态"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5v7tq4g4340",
+                                            "created": 1600911674159,
+                                            "text": "屏幕开启时间"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5v7ttfxg680",
+                                            "created": 1600911681384,
+                                            "text": "电池损耗"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5v7twmqeug0",
+                                            "created": 1600911688326,
+                                            "text": "APP相关所有数据统计"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c5v7du2d24o0",
+                    "created": 1600910428914,
+                    "text": "固有属性思考",
+                    "layout_mind_offset": {
+                        "x": -88,
+                        "y": 686
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c5v7e7nvt400",
+                            "created": 1600910458513,
+                            "text": "商品"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5v7gh8tvig0",
+                                    "created": 1600910636099,
+                                    "text": "固有属性",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5v7ebwby3c0",
+                                            "created": 1600910467731,
+                                            "text": "价格",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5v7eh92gag0",
+                                                    "created": 1600910479385,
+                                                    "text": "电商往期价格"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5v7eyq54bk0",
+                                                    "created": 1600910517423,
+                                                    "text": "实体店往期价格"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5v7fdbmreo0",
+                                                    "created": 1600910549197,
+                                                    "text": "购买时的实付价格"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5v7g9u02n40",
+                                            "created": 1600910619965,
+                                            "text": "商品名称"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5v7haesuzk0",
+                                            "created": 1600910699587,
+                                            "text": "商品类别"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c5v7hevtuco0",
+                                            "created": 1600910709323,
+                                            "text": "折旧时限"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c5v7gnq04aw0",
+                                    "created": 1600910650198,
+                                    "text": "被动属性/关联属性/附加属性",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5v7eeligts0",
+                                            "created": 1600910473607,
+                                            "text": "被购买/被消费"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5v7fp56xyg0",
+                                                    "created": 1600910574929,
+                                                    "text": "渠道"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5v7frllho00",
+                                                    "created": 1600910580275,
+                                                    "text": "价格"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5v7fwkb52w0",
+                                                    "created": 1600910591081,
+                                                    "text": "时间"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5v7g048u2w0",
+                                                    "created": 1600910598816,
+                                                    "text": "付款方式"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c5v7i24f3ts0",
+                            "created": 1600910759909,
+                            "text": "语言"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c5v7i4zbr2w0",
+                                    "created": 1600910766131,
+                                    "text": "人际交流语言"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c5v7kyhypi80",
+                                            "created": 1600910987113,
+                                            "text": "语种",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c5v7iga3m140",
+                                                    "created": 1600910790727,
+                                                    "text": "汉语"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c5v7ioy4an40",
+                                                            "created": 1600910809594,
+                                                            "text": "中文"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5v7ivls0aw0",
+                                                                    "created": 1600910824086,
+                                                                    "text": "书法字体"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "c5v7izawta80",
+                                                                            "created": 1600910832135,
+                                                                            "text": "小篆"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "c5v7j7e5lbk0",
+                                                                            "created": 1600910849746,
+                                                                            "text": "隶书"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "c5v7jctcqtk0",
+                                                                            "created": 1600910861549,
+                                                                            "text": "楷体"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "c5v7jftznc80",
+                                                                            "created": 1600910868117,
+                                                                            "text": "草书 "
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5v7ju5xotk0",
+                                                                    "created": 1600910899315,
+                                                                    "text": "历史字体",
+                                                                    "layout_left_offset": {
+                                                                        "x": -3,
+                                                                        "y": 5
+                                                                    }
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "c5v7k7q0beg0",
+                                                                            "created": 1600910928827,
+                                                                            "text": "甲骨文"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "c5v7ka6oilc0",
+                                                                            "created": 1600910934188,
+                                                                            "text": "繁体中文"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "c5v7kiebrh40",
+                                                                            "created": 1600910952065,
+                                                                            "text": "简体中文"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "c5v7km8zs140",
+                                                                            "created": 1600910960449,
+                                                                            "text": "网络脑残字"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5v7ljkbpjc0",
+                                                            "created": 1600911032968,
+                                                            "text": "说话语言/方言"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5v7lottsf40",
+                                                                    "created": 1600911044427,
+                                                                    "text": "普通话"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5v7lrlhcug0",
+                                                                    "created": 1600911050453,
+                                                                    "text": "粤语"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5v7lyscd0o0",
+                                                                    "created": 1600911066105,
+                                                                    "text": "客家话"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5v7m3r8xnc0",
+                                                                    "created": 1600911076923,
+                                                                    "text": "潮汕话"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5v7m5ztsuw0",
+                                                                    "created": 1600911081795,
+                                                                    "text": "四川话"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c5v7okpd41s0",
+                                                            "created": 1600911270542,
+                                                            "text": "语法"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c5v7on7ms1k0",
+                                                                    "created": 1600911276001,
+                                                                    "text": "动词"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c5v7iia60c00",
+                                                    "created": 1600910795085,
+                                                    "text": "英语"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c5v7itifoo80",
+                                                            "created": 1600910819529,
+                                                            "text": "英文"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c5v7idmmvds0",
+                                    "created": 1600910784955,
+                                    "text": "编程语言"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c6gw9j391m80",
+                    "created": 1603113378404,
+                    "text": "数据存储框架",
+                    "layout_mind_offset": {
+                        "x": 924.6666367981179,
+                        "y": -334.249988097698
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c6hk6cqcmjs0",
+                            "created": 1603180836108,
+                            "text": "基础数据结构（全语言通用）",
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 57.49999914318346,
+                                "y": -44.9999993294478
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6gwa00gmn40",
+                                    "created": 1603113415240,
+                                    "text": "链表"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6gwa5npbhc0",
+                                    "created": 1603113427530,
+                                    "text": "树"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6gwa9zja9s0",
+                                    "created": 1603113436952,
+                                    "text": "全局状态栈顶记录表"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6ilktcqvvc0",
+                                    "created": 1603286350456,
+                                    "text": "JSON"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6ilkzqchoo0",
+                                    "created": 1603286364339,
+                                    "text": "XML"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c6hk72myva00",
+                            "created": 1603180892501,
+                            "text": "专用数据结构"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6hk7lj1rjs0",
+                                    "created": 1603180933622,
+                                    "text": "Java"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6iarbz634o0",
+                                    "created": 1603255828970,
+                                    "text": "C"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6iarfylik00",
+                                    "created": 1603255837642,
+                                    "text": "C++"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6iarhserfs0",
+                                    "created": 1603255841622,
+                                    "text": "Python"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
