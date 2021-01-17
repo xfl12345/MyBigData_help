@@ -74,7 +74,7 @@ Answer 3: 这个嘛……就是MyBigData数据库的构建草稿。
     i. 每个周期花多少钱？  
     h. 等等等等
 2. 浏览器的收藏夹（书签）统一吗？  
-    a. QQ浏览器
+    a. QQ浏览器  
     b. 360浏览器  
     c. FireFox  
     d. Chrome谷歌浏览器  
