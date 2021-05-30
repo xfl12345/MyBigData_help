@@ -34,7 +34,7 @@ Answer 3: 这个嘛……就是MyBigData数据库的构建草稿。
 ## 展望  
 
 + [ ] Python3服务端  
-  <https://githu+com/xfl12345/MyBigData_Python3>
+  <https://github.ccom/xfl12345/MyBigData_Python3>
 + [ ] PHP7服务端
 + [ ] C/C++服务端
 + [ ] Android APP服务端
