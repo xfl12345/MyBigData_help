@@ -136,17 +136,9 @@
                         "children": [
                             {
                                 "data": {
-                                    "id": "c5v7bb0bklc0",
-                                    "created": 1600910230703,
-                                    "text": "PHP实现WebUI"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
                                     "id": "c5v7bimthpc0",
                                     "created": 1600910247301,
-                                    "text": "Java实现跨平台APP级GUI"
+                                    "text": "WebAPP(JavaScript)纯前端WebUI"
                                 },
                                 "children": []
                             },
