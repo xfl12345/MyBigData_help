@@ -13,7 +13,8 @@ Answer 1: 在那个根目录下面的"**brainMap.km**"文件里。
 ### Question 2: "*.km"文件是什么？如何打开？
 
 Answer 2: km后缀的文件是Visual Studio Code（简称VS Code）的一个脑图文件  
-大家如果安装了VS Code，可以从这个网址： <https://marketplace.visualstudio.com/items?itemName=Souche.vscode-mindmap>  
+大家如果安装了VS Code，可以从这个网址：  
+<https://marketplace.visualstudio.com/items?itemName=Souche.vscode-mindmap>  
 直接安装下载安装 **vscode-mindmap**  拓展插件到你的VS code里。  
 怎么用呢？举个例子：把 **brainMap.km** 用VS code打开，就可以自动激活拓展插件，  
 直接进入脑图编辑模式。  
@@ -44,13 +45,13 @@ Answer 2: km后缀的文件是Visual Studio Code（简称VS Code）的一个脑�
 ## 打算实现的软件
 
 + [ ] Python3服务端  
-  <https://github.com/xfl12345/MyBigData_Python3>
+  <https://github.com/xfl12345/MyBigData_Python3>  (已停更)
 + [ ] PHP7服务端
 + [ ] C/C++服务端
 + [ ] Android APP客户端
 + [ ] Android APP服务端
 + [ ] OracleJDK Java17服务端  
-  <https://github.com/xfl12345/MyBigData_Java17>
+  <https://github.com/xfl12345/java-mybigdata-server-web>  Web 模块
 + [ ] WebAPP(JavaScript)客户端
 
 ## 为什么要做这个项目？
