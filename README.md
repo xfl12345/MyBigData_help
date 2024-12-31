@@ -1,4 +1,6 @@
-# MyBigData_help
+# MyBigData 文档
+
+迁移至 `https://github.com/xfl12345/MyBigData/docs`
 
 ## 介绍
 
